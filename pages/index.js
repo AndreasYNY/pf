@@ -14,6 +14,7 @@ export default function Load() {
 
   return <>
     <Head>
+      <link rel="icon" type="image/x-icon" href="a.png"/>
       <title>Andreas Yozef</title>
     </Head>
     
