@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { useState } from "react"
 
-export default function load() {
+export default function Load() {
 
   const nameanimate = {name: 'transition-all translate-y-12 ease-out opacity-0 duration-1000 delay-300', name2: 'transition-all translate-y-0 ease-out opacity-100 duration-1000 delay-300'}
 
