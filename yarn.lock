@@ -46,6 +46,11 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
+"@icons-pack/react-simple-icons@^5.11.0":
+  "integrity" "sha512-hFJ4Q4JcYe/wQUab+gIug1BONjBUelaUVFYsZ1FKv5CEX/fP56qGet4CPmx18BqDhxrOehidYNlLyGppXL9/7w=="
+  "resolved" "https://registry.npmjs.org/@icons-pack/react-simple-icons/-/react-simple-icons-5.11.0.tgz"
+  "version" "5.11.0"
+
 "@next/env@12.1.6":
   "integrity" "sha512-Te/OBDXFSodPU6jlXYPAXpmZr/AkG6DCATAxttQxqOWaq6eDFX25Db3dK0120GZrSZmv4QCe9KsZmJKDbWs4OA=="
   "resolved" "https://registry.npmjs.org/@next/env/-/env-12.1.6.tgz"
@@ -1554,7 +1559,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
+"react@^16.13 || ^17 || ^18", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
@@ -1674,11 +1679,6 @@
     "call-bind" "^1.0.0"
     "get-intrinsic" "^1.0.2"
     "object-inspect" "^1.9.0"
-
-"simple-icons@^7.18.0":
-  "integrity" "sha512-ltJxrjBZ0xDLkP9qWBkrR6UGRNaBeH5JNlXF3nOpsQDI8XXGzGzEoq3kKl3qTgZEvRWtonG2ITN7zgKE1SR4KQ=="
-  "resolved" "https://registry.npmjs.org/simple-icons/-/simple-icons-7.18.0.tgz"
-  "version" "7.18.0"
 
 "slash@^3.0.0":
   "integrity" "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
