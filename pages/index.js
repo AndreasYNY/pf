@@ -7,7 +7,6 @@ export default function Load() {
   const nameanimate = { name: 'transition-all translate-y-12 ease-out opacity-0 duration-1000 delay-300', name2: 'transition-all translate-y-0 ease-out opacity-100 duration-1000 delay-300' }
 
   
-  const [volume, setVolume] = useState(0.1)
   const [muted, setMuted] = useState(true)
   const [load, setLoaded] = useState(nameanimate.name)
 
@@ -29,7 +28,7 @@ export default function Load() {
     // hacky way to do it, it works tho
     document.getElementById("inputVol").value = document.getElementById("vid").volume
     setLoaded(nameanimate.name2)
-  })
+  }, [muted, nameanimate.name2])
 
   return <>
     <Head>
