@@ -30,18 +30,20 @@ export default function Load() {
       <link rel="icon" type="image/x-icon" href="a.png" />
       <title>Andreas Yozef</title>  
     </Head>
-    <div className="z-10 absolute left-1 bottom-1 drop-shadow-2xl">
-      <h1 className={load + ` text-neutral-800 text-4xl`}>Andreas <span className="font-bold ">Yozef</span></h1>
-      <p className={load + ` text-neutral-800`}>I make website for living 🍙, Backend dev 🎒, <br />Linux enthusiast 🐧</p>
+
+    <body className="bg-gray-50">
+    <div className="z-10 absolute left-1 bottom-1 drop-shadow-2xl mix-blend-difference invert-[.7]">
+      <h1 className={load + ` text-4xl text-stone-900`}>Andreas <span className="font-bold ">Yozef</span></h1>
+      <p className={load + ` text-stone-900 `}>I make website for living 🍙, Backend dev 🎒, <br />Linux enthusiast 🐧</p>
     </div>
 
-    <div className={load + ` z-10 absolute right-1 bottom-1 text-neutral-800 drop-shadow-2xl`}>
-      <span className={` text-sm drop-shadow-lg`}>Made with ❤️ by <b><a href="https://github.com/andreasyny">andreas </a></b></span>
+    <div className={load + ` z-10 absolute right-1 bottom-1 drop-shadow-2xl mix-blend-difference invert-[.7]`}>
+      <span className={` text-sm drop-shadow-lg text-stone-900`}>Made with ❤️ by <b><a href="https://github.com/andreasyny">andreas </a></b></span>
     </div>
 
     
 
-    <div className="z-10 absolute right-0 top-0 text-slate-50 opacity-25 hover:opacity-100 ">
+    <div className="z-10 absolute right-0 top-0 text-slate-50 opacity-25 hover:opacity-100">
       <div className="bg-slate-800">
         <ul>
           <li className="inline-block"><a id="vol" className="" href="#" onClick={(e) =>{
@@ -62,17 +64,19 @@ export default function Load() {
       {/* <span className={load + ` text-sm`} ><a href="https://www.youtube.com/watch?v=_B3ed2Z2qgs">Video</a></span> */}
     </div>
 
-    <video id="vid" className="z-0 absolute h-screen top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 blur-sm" src="assets/flowers_mountains_and_funerals_abuse.mp4" autoPlay loop muted></video>
+    <video id="vid" className="z-0 absolute h-screen top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src="assets/flowers_mountains_and_funerals_abuse.mp4" autoPlay loop muted></video>
 
-    <div className=" h-screen drop-shadow-2xl">
+    <div className=" h-screen drop-shadow-2xl mix-blend-difference invert">
       <div className={load + ` z-10`}>
-        <ul className=" text-neutral-800">
-          <li className="inline-block p-2"><a href="https://github.com/andreasyny"><Github color='black' size={40} /></a></li>
-          <li className="inline-block p-2"><a href="https://www.linkedin.com/in/andreasyozef/"><Linkedin color="black" size={40} /></a></li>
-          <li className="inline-block p-2"><a href="https://www.twitter.com/sleepyandreas"><Twitter color="black" size={40} /></a></li>
+        <ul className=" text-neutral-800 ">
+          <li className="inline-block p-2 "><a href="https://github.com/andreasyny"><Github size={40} /></a></li>
+          <li className="inline-block p-2"><a href="https://www.linkedin.com/in/andreasyozef/"><Linkedin  size={40} /></a></li>
+          <li className="inline-block p-2"><a href="https://www.twitter.com/sleepyandreas"><Twitter  size={40} /></a></li>
         </ul>
       </div>
     </div>
+    </body>
+    
 
   </>
 }
