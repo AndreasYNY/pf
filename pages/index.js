@@ -35,8 +35,8 @@ export default function Load() {
       <p className={load + ` text-neutral-800`}>I make website for living 🍙, Backend dev 🎒, <br />Linux enthusiast 🐧</p>
     </div>
 
-    <div className="z-10 absolute right-1 bottom-1 text-neutral-800 drop-shadow-2xl">
-      <span className={load + ` text-sm drop-shadow-lg`}>Made with ❤️ by <b><a href="https://github.com/andreasyny">andreas </a></b></span>
+    <div className={load + ` z-10 absolute right-1 bottom-1 text-neutral-800 drop-shadow-2xl`}>
+      <span className={` text-sm drop-shadow-lg`}>Made with ❤️ by <b><a href="https://github.com/andreasyny">andreas </a></b></span>
     </div>
 
     
